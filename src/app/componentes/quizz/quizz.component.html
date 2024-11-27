@@ -1,0 +1,31 @@
+<div class="container__quizz">
+
+  <div *ngIf="!terminado" class="quizz__logo">
+    <img src="assets/img/logoNaruto.png" alt="">
+  </div>
+
+  <div *ngIf="!terminado" class="quizz__questionario">
+
+    <div class="quizz__questoes">
+      <h3>{{questaoEscolhida.questoe}}</h3>
+    </div>
+
+    <div class="quizz__opcoes">
+      <button
+      *ngFor="let opcao of questaoEscolhida.opcoes"
+      class="btn_opcao"
+      (click)="selecionarOpcao(opcao.alias)"
+      >{{opcao.resposta}}</button>
+    </div>
+
+  </div>
+
+
+  <div *ngIf="terminado" class="quizz__resultados">
+    <img src="{{fotoEscolhida}}" alt="" width="500px">
+    <h1>Você é como {{personagenEscolhido}}!</h1>
+    <p>{{respostaEscolhida}}</p>
+    <button [routerLink]="['']">Voltar</button>
+  </div>
+
+</div>

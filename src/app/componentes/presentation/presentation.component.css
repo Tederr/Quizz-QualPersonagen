@@ -1,0 +1,73 @@
+@font-face {
+  font-family: naruto-fonte;
+  src: url(../../../assets/fontes/njnaruto.ttf);
+}
+
+.container__presentation{
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+
+  .presentation__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .presentation__titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    background-color: whitesmoke;
+    border: 2px solid #edbb5f;
+    border-radius: 8px;
+
+    h1{
+      margin-top: 15px;
+      font-family: naruto-fonte;
+    }
+
+    p{
+      margin-top: 10px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+  }
+
+  .presentation__start{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+    h3{
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #dd9c23;
+    }
+
+    button{
+      margin-top: 15px;
+      padding: 5px 10px;
+      background-color: transparent;
+      border: 2px solid #edbb5f;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover{
+      background-color: #edbb5f;
+      color: white;
+    }
+
+    button:active{
+    position: relative;
+    top: 1px;
+    }
+  }
+}

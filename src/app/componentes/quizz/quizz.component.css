@@ -1,0 +1,116 @@
+@font-face {
+  font-family: naruto-fonte;
+  src: url(../../../assets/fontes/njnaruto.ttf);
+}
+
+
+.container__quizz {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+
+
+  & .quizz__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  & .quizz__questionario {
+
+    & .quizz__questoes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #db8f00;
+      border-radius: 8px;
+      background-color: #FFBC42;
+      width: 100%;
+      min-height: 100px;
+      color: black;
+      font-size: 20px;
+      font-family: naruto-fonte;
+      margin-bottom: 20px;
+    }
+
+    & .quizz__opcoes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: auto;
+      margin-bottom: 20px;
+
+      & .btn_opcao {
+        background-color: transparent;
+        border-radius: 8px;
+        border: 2px solid #122bca;
+        margin-right: 3px;
+        margin-top: 3px;
+        width: 49%;
+        display: inline-block;
+        cursor: pointer;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        padding: 16px 31px;
+        text-decoration: none;
+      }
+
+      & .btn_opcao:hover {
+        background-color: #1533f7;
+        color: white;
+      }
+
+      & .btn_opcao:active {
+        position: relative;
+        top: 1px;
+      }
+    }
+
+  }
+
+  & .quizz__resultados {
+    width: 100%;
+    min-height: 350px;
+    background-color: #c1c0be;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    & img {
+      border: 3px solid grey;
+      border-radius: 8px;
+    }
+
+    & p{
+      margin: 0px 200px;
+    }
+
+    & button{
+      margin-top: 30px;
+      padding: 5px 10px;
+      background-color: white;
+      border: 2px solid #edbb5f;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover{
+      background-color: #edbb5f;
+      color: white;
+    }
+
+    button:active{
+    position: relative;
+    top: 1px;
+    }
+
+  }
+}
