@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:Quizz-QualPersonagen": "node dist/quizz-qual-personagen/server/server.mjs"
+    "serve:ssr:Quizz-QualPersonagen": "node dist/quizz-qual-personagen/server/server.mjs",
+    "deploy:dv":"ng build --configuration production --output-path docs --base-href /Quizz-QualPersonagen/"
   },
   "private": true,
   "dependencies": {

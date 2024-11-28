@@ -1,0 +1,144 @@
+{
+  "titulo": "Qual   e   voce   do   lendario   time   7?",
+  "introducao":"Bem-vindo ao mundo de Naruto! Você está prestes a embarcar em uma jornada que vai testar sua personalidade ninja. Será que você é tão determinado quanto Naruto Uzumaki? Ou talvez tão focado quanto Sasuke Uchiha? Quem sabe seu coração compassivo combine com Sakura Haruno, ou sua sabedoria te conecte com Kakashi Hatake?",
+  "questoes": [
+    {
+      "id": 1,
+      "questoe": "O que voce faz quando enfrenta um obstaculo inesperado ?",
+      "opcoes": [
+        {
+          "id": 1,
+          "resposta": "Insisto até encontrar uma solução, mesmo que demore.",
+          "alias": "naruto"
+        },
+        {
+          "id": 2,
+          "resposta": "Analiso calmamente, mas prefiro resolver sozinho.",
+          "alias": "sasuke"
+        },
+        {
+          "id": 3,
+          "resposta": "Tento entender o problema e encontrar apoio, se necessário.",
+          "alias": "sakura"
+        },
+        {
+          "id": 4,
+          "resposta": "Avalio todas as opções possíveis antes de agir.",
+          "alias": "kakashi"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "questoe": "Como as pessoas ao seu redor te descreveriam ?",
+      "opcoes": [
+        {
+          "id": 1,
+          "resposta": "Observador e confiável, com muita sabedoria.",
+          "alias": "kakashi"
+        },
+        {
+          "id": 2,
+          "resposta": "Atencioso e sempre disposto a ajudar.",
+          "alias": "sakura"
+        },
+        {
+          "id": 3,
+          "resposta": "Determinado, mas reservado em mostrar sentimentos.",
+          "alias": "sasuke"
+        },
+        {
+          "id": 4,
+          "resposta": "Alguém cheio de energia, que nunca desiste.",
+          "alias": "naruto"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "questoe": "Quando voce trabalha em equipe, qual e a sua prioridade ?",
+      "opcoes": [
+        {
+          "id": 1,
+          "resposta": "Cumprir sua parte com perfeição, sem depender dos outros.",
+          "alias": "sasuke"
+        },
+        {
+          "id": 2,
+          "resposta": "Garantir que o grupo siga na direção certa, sem perder o foco.",
+          "alias": "kakashi"
+        },
+        {
+          "id": 3,
+          "resposta": "Certificar-se de que todos estão bem e contribuindo igualmente.",
+          "alias": "sakura"
+        },
+        {
+          "id": 4,
+          "resposta": "Motivar todos a darem o melhor de si.",
+          "alias": "naruto"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "questoe": "Se pudesse escolher uma habilidade para dominar, qual seria ?",
+      "opcoes": [
+        {
+          "id": 1,
+          "resposta": "Algo que me permita ajudar e curar as pessoas.",
+          "alias": "sakura"
+        },
+        {
+          "id": 2,
+          "resposta": "Algo que me permita proteger aqueles que amo.",
+          "alias": "naruto"
+        },
+        {
+          "id": 3,
+          "resposta": "Algo que me dê controle sobre situações difíceis.",
+          "alias": "kakashi"
+        },
+        {
+          "id": 4,
+          "resposta": "Algo que me torne mais forte e independente.",
+          "alias": "sasuke"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "questoe": "Em um momento de descanso, o que voce gosta de fazer ?",
+      "opcoes": [
+        {
+          "id": 1,
+          "resposta": "Ler, relaxar ou explorar algo novo para aprender.",
+          "alias": "kakashi"
+        },
+        {
+          "id": 2,
+          "resposta": "Estar com amigos, rindo e me divertindo.",
+          "alias": "naruto"
+        },
+        {
+          "id": 3,
+          "resposta": "Ficar sozinho, refletindo ou aperfeiçoando algo.",
+          "alias": "sasuke"
+        },
+        {
+          "id": 4,
+          "resposta": "Cuidar de alguém ou organizar algo produtivo.",
+          "alias": "sakura"
+        }
+      ]
+    }
+  ],
+  "resultado":
+    {
+      "naruto": "Determinado, otimista e com uma energia contagiante, você nunca desiste, mesmo diante das dificuldades. Sua força está na sua lealdade aos amigos e na sua vontade de proteger quem ama. Continue espalhando essa energia pelo mundo!",
+      "sasuke": "Reservado, intenso e altamente focado, você busca superar seus limites e alcançar seus objetivos a qualquer custo. Sua determinação é inspiradora, mas lembre-se: às vezes, compartilhar o caminho com outros pode torná-lo ainda mais forte.",
+      "sakura": "Atencioso, dedicado e resiliente, você é o coração de qualquer equipe. Sempre buscando ajudar os outros, você tem uma força interior incrível que muitas vezes surpreende a todos. Continue mostrando que cuidar dos outros é um sinal de força!",
+      "kakashi": "Sábio, tranquilo e sempre pronto para dar os melhores conselhos, você é um líder natural. Sua habilidade de equilibrar conhecimento e ação inspira todos ao seu redor. Não perca essa calma incrível, mesmo em momentos difíceis!"
+    }
+
+}
